@@ -3,5 +3,8 @@
   "plugins": [
     "stylelint-order",
     "stylelint-scss"
+  ],
+  "ignoreFiles": [
+    "**/.eslintrc.cjs"
   ]
 }

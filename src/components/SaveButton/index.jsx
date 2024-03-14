@@ -1,8 +1,8 @@
 import style from './SaveButton.module.css';
 
-const SaveButton = () => {
+function SaveButton() {
   return (
-    <button className={style['save-button']}>
+    <button type="button" className={style['save-button']}>
       Save
     </button>
   );
